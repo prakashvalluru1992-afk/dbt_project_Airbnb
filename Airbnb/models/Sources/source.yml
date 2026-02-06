@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: my_bronze
+    database: PRAKASH_BRONZE
+    schema: PRAKASH
+    tables:
+      - name: HOSTS
+      - name: LISTINGS
+      - name: BOOKINGS
