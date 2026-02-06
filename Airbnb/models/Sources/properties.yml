@@ -1,0 +1,8 @@
+version: 2
+models:
+  - name: B_HOSTS
+    config:
+      materialized: table
+  - name: B_LISTINGS
+    config:
+      materialized: table

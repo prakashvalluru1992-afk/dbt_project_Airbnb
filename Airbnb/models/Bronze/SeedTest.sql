@@ -1,0 +1,3 @@
+SELECT a.*,b.smallname
+FROM PRAKASH_BRONZE.PRAKASH.LISTINGS A
+JOIN {{ref('Countrysmallname')}} B ON A.COUNTRY=B.COUNTRY
